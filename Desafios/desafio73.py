@@ -1,0 +1,11 @@
+times = ('Atlético-MG', 'Flamengo', 'Palmeiras', 'Corinthians', 'Fortaleza', 'Bragantino', 'Fluminense', 'Internacional', 'Ceará SC', 'América-MG', 'Cuiabá', 'Santos', 'Athletico-PR', 'São Paulo', 'Atlético-GO', 'Juventude', 'Bahia', 'Gremio', 'Sports Recife', 'Chapecoense')
+
+print(f'Lista de times do Brasileirão: {times}')
+print('-' * 30)
+print(f'Os 5 primeiros times do campeonato são {times[:5]}')
+print('-' * 30)
+print(f'Os 4 ultimos colocados da table são {times[-4:]}')
+print('-' * 30)
+print(f'Times em orem alfabética: {sorted(times)}')
+print('-' * 30)
+print(f'O {times[19]} está na {times.index("Chapecoense") + 1}° posição')
